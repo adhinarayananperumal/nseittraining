@@ -1,0 +1,24 @@
+
+
+class
+method
+calling method  in other class
+variable
+object creation
+call method with paramaeter in other class
+return value
+instance , local 
+static
+constructor
+this
+final
+finalize
+heap
+stack
+String , stringbuffer , stringbuilder
+Pass by address , pass by value
+Array
+Wrapper class
+final
+Garbage collection
+
