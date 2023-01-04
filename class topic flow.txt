@@ -16,9 +16,64 @@ finalize
 heap
 stack
 String , stringbuffer , stringbuilder
+Sttring Pool
 Pass by address , pass by value
 Array
 Wrapper class
 final
 Garbage collection
+inner Class
+Enum
+Date
+
+OOPS
+inheritance
+polymorphism
+overloading
+overriding
+encapsulation
+interface
+abstract
+
+Demonstrate OOPS with above concept for Employeemanagement ( permanaent , temporary , freelancer employee)
+
+Exception
+throw 
+throws
+try
+catch
+finally
+java exception class
+multiple catch
+nested catch
+custom exception
+checked exception
+unchecked exception
+
+Demonstrate bank NEFT bank transfer by using above exception handling concept
+
+
+Asynchronous Programming
+thread
+creating thread by Thread class
+Creating thread by implementing runnable
+sleep
+join
+Synchronization key word
+synchronization method
+Synchronization block
+Thread executor
+Demonstrate one example with asynchronous programing for Bank NEFT transfer( Mail and SMS as asynchronous)
+
+
+File
+Byte , Character stream
+Input strem
+Outputstreem
+Reader
+Writer
+Buffer stream
+java.nio.file.Path Class
+Scanner
+https://examples.javacodegeeks.com/core-java/java-nio-read-file-example/
 
