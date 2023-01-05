@@ -77,3 +77,14 @@ java.nio.file.Path Class
 Scanner
 https://examples.javacodegeeks.com/core-java/java-nio-read-file-example/
 
+
+
+Customer management ( save , Update , search by cusId ,  List , delete , searchByLoanAmount)
+LoanType - HomeLoan , Personal Loan , vehicle Loan , x Loan )
+Loan Creation (  save
+Document collection
+verification
+finance
+loan collection department
+
+
