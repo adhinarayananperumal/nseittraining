@@ -13,14 +13,13 @@ public class JdbcSimpleExample1 {
 		Statement stmt = null;
 		Connection con = null;
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/www", "root", "password");		// here sonoo is database name, root is username and password
+			Class.forName("org.postgresql.Driver");
+			con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/tradb?sslmode=disable", "postgres", "password");		// here sonoo is database name, root is username and password
 			stmt = con.createStatement();
-			rs = stmt.executeQuery("select * from customer_details");
+			rs = stmt.executeQuery("select * from cus");
 			
 			while (rs.next())
-				System.out.println(rs.getString(1) + "  " + rs.getInt(2) + "  " + rs.getInt(3));
-			
+				System.out.println(rs.getString(1) + "  " + rs.getString(2) + "  " + rs.getInt(3) + " "+ rs.getString("email"));
 			
 		} catch (ClassNotFoundException e) {
 			// send mail

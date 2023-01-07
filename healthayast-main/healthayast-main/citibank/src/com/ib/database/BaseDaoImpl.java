@@ -17,7 +17,9 @@ abstract public class BaseDaoImpl {
 		try {
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/citydb", "root", "password");			// here sonoo is database name, root is username and password
+			//con = DriverManager.getConnection("jdbc:mysql://localhost:3306/citydb", "root", "password");			// here sonoo is database name, root is username and password
+			con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/tradb?sslmode=disable", "postgres", "password");		// here sonoo is database name, root is username and password
+
 			//Class.forName("org.postgresql.Driver");
 			//con = DriverManager.getConnection("jdbc:postgresql://localhost/citydb", "postgres", "password123");			// here sonoo is database name, root is username and password
 		} catch (ClassNotFoundException e) {
