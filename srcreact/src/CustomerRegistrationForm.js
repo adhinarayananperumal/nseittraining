@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 //https://www.freecodecamp.org/news/how-to-create-forms-in-react-using-react-hook-form/
+
+import axios from "axios";
+
 export default function CustomerRegistrationForm() {
 
 
@@ -10,15 +13,30 @@ export default function CustomerRegistrationForm() {
 
     const handleInputChange = (event) => {
         const { name, value } = event.target;
-        setState((prevProps) => ({
+        setState((prevProps)  =>({
             ...prevProps,
             [name]: value
         }));
     };
 
+    function createCustomer() {
+        console.log("state....." + JSON.stringify(state))
+        axios.post("http://localhost:8080/customer/save", {
+          title: "Hello World!",
+          body: JSON.stringify(state) 
+        })
+        .then((response) => {
+          console.log(response.data);
+        });
+
+      }
+    
+
+
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(state);
+        createCustomer();
     };
 
 
