@@ -1,0 +1,3 @@
+Create two child div in a div and place child horizontally ,  
+center both child dive and content.
+Use padding and spacing also (Use Box model). 

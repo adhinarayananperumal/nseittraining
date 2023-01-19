@@ -1,5 +1,69 @@
-
+html,body{
+width:100%;
+height:100%;
+}
 
 .displayTextCenter{
   text-align: center;
+  color:grey;
+  font-size: 70px;
+}
+
+.width100Percent{
+width:700px;
+border:1px;
+}
+
+.marginRight{
+  margin-right: 100px;
+}
+
+.marginLeft{
+  margin-left: 50px;
+}
+
+div.rightAlignText{
+  text-align: right;
+}
+
+.textAlignLeft{
+  text-align: left;
+}
+
+.product{
+border:1px solid black;
+text-align:center;
+  padding: 70px;
+  spacing: 70px;
+
+}
+
+prodList{
+text-align:center;
+  padding: 70px;
+  spacing: 70px;
+
+}
+
+.hdivDemo{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  padding:5px;
+  spacing:5px;
+}
+
+.cborder{
+border:1px solid black;
+margin: 10px 5px 5px 10px;
+}
+
+.childDiv{
+width:50%;
+}
+
+#apara{
+color:green;
+font-size: 50px;
+font-weight:bold;
 }
